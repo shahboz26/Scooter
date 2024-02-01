@@ -1,0 +1,95 @@
+name: scooter
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  flutter_rating_bar: ^4.0.1
+  flutter_svg_provider: ^1.0.7
+  smooth_page_indicator: ^1.1.0
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Hind
+      fonts: 
+        - asset: assets/fonts/HindSemiBold.ttf
+          weight: 600
+    - family: Inconsolata
+      fonts: 
+        - asset: assets/fonts/InconsolataExtraBold.ttf
+          weight: 800
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanLight.ttf
+          weight: 300
+        - asset: assets/fonts/RobotoRomanBold.ttf
+          weight: 700
+    - family: Imprima
+      fonts: 
+        - asset: assets/fonts/ImprimaRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterLight.ttf
+          weight: 300
+    - family: Lato
+      fonts: 
+        - asset: assets/fonts/LatoLight.ttf
+          weight: 300
+        - asset: assets/fonts/LatoRegular.ttf
+          weight: 400
+    - family: Work Sans
+      fonts: 
+        - asset: assets/fonts/WorkSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/WorkSansRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/WorkSansRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/WorkSansMedium.ttf
+          weight: 500
+    - family: Red Hat Text
+      fonts: 
+        - asset: assets/fonts/RedHatTextRomanLight.ttf
+          weight: 300
+        - asset: assets/fonts/RedHatTextRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RedHatTextRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/RedHatTextRomanSemiBold.ttf
+          weight: 600
+    - family: PT Sans
+      fonts: 
+        - asset: assets/fonts/PTSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/PTSansRegular.ttf
+          weight: 400
+    - family: IBM Plex Sans Thai Looped
+      fonts: 
+        - asset: assets/fonts/IBMPlexSansThaiLoopedRegular.ttf
+          weight: 400
+        - asset: assets/fonts/IBMPlexSansThaiLoopedBold.ttf
+          weight: 700
+    - family: Alice
+      fonts: 
+        - asset: assets/fonts/AliceRegular.ttf
+          weight: 400
+    - family: Red Hat Mono
+      fonts: 
+        - asset: assets/fonts/RedHatMonoRomanRegular.ttf
+          weight: 400
